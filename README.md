@@ -19,12 +19,12 @@ using that list.
 
 ## Using the Update Script
 
-## Prerequisites
+### Prerequisites
 
 * [Node.js](https://nodejs.org/) 16.14 or later (might work on older versions)
 * [Yarn](https://yarnpkg.com/)
 
-## Usage
+### Usage
 
 ```bash
 git clone https://github.com/plbrault/microtik-google-address-list.git
