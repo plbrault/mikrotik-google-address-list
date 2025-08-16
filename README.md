@@ -1,7 +1,7 @@
-# Microtik Google Address List Generator
+# Mikrotik Google Address List Generator
 
 This repository's `command.txt` file contains a terminal
-command for Microtik's RouterOS that creates an address list named "google" in the firewall.
+command for Mikrotik's RouterOS that creates an address list named "google" in the firewall.
 This address list includes all publicly known IP addresses that belong to Google, except the addresses of Google's DNS servers.
 This command can be updated by running the script also provided in this
 repository. The script works by downloading a list of IP
@@ -27,8 +27,8 @@ using that list.
 ### Usage
 
 ```bash
-git clone https://github.com/plbrault/microtik-google-address-list.git
-cd microtik-google-address-list
+git clone https://github.com/plbrault/mikrotik-google-address-list.git
+cd mikrotik-google-address-list
 yarn && yarn update-command
 ```
 
